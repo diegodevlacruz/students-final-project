@@ -8,29 +8,29 @@ de los cursos y los cursos que los estudiantes están matriculados.</p>
 
 <p> Se pide crear los servicios REST para: </p>
 
-### CRUD Estudiante 
-- Id: integer 
-- Nombres: string 
-- Apellidos: string 
-- DNI: string 
-- Edad: int 
+### CRUD Estudiante - Student
+- Id - idStudent: Integer 
+- Nombres - name: String 
+- Apellidos - lastname: String 
+- DNI - identityCard: String 
+- Edad - age: int 
 
-### CRUD Curso
-- Id: integer
-- Nombre: string
-- Siglas: string
-- Estado: boolean
+### CRUD Curso - Course
+- Id - idCourse: integer
+- Nombre - name: String
+- Siglas - acronym: String
+- Estado - status: boolean
 
-### Registrar Matricula
+### Registrar Matricula - Register Enrollment
 #### Comprende la siguiente información.
-- Fecha Mátricula: LocalDateTime
-- Estudiante: Class
-- DetalleMatricula: Class[] Arreglo
-- Estado: boolean
+- Fecha Mátricula - enrollmentDate: LocalDateTime
+- Estudiante - Student: Class
+- DetalleMatricula - RegisterEnrollment: Class[] Arreglo
+- Estado - status: boolean
 
-### DetalleMatricula
-- Curso: Class
-- Aula: String
+### Detalle Matricula - Register Details
+- Curso - Course: Class 
+- Aula - Classroom: String
 
 *_Listar estudiantes ordenados de forma descendente por edad usando programación funcional_ 
 
