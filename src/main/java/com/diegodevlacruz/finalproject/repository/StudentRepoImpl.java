@@ -3,6 +3,7 @@ package com.diegodevlacruz.finalproject.repository;
 import com.diegodevlacruz.finalproject.model.Student;
 import org.springframework.stereotype.Repository;
 
+/*
 @Repository
 public class StudentRepoImpl implements IStudentRepo {
 
@@ -12,3 +13,5 @@ public class StudentRepoImpl implements IStudentRepo {
     }
 
 }
+
+ */

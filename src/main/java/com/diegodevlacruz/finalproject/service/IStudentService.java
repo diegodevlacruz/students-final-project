@@ -1,9 +1,20 @@
 package com.diegodevlacruz.finalproject.service;
 
 import com.diegodevlacruz.finalproject.model.Student;
+import jdk.jfr.Category;
+
+import java.util.List;
 
 public interface IStudentService {
 
-    public Student validAndGet(Integer id);
+    Student save(Student student) throws Exception;
+
+    Student update(Integer id, Student student) throws Exception;
+
+    List<Student> findAll() throws Exception;
+
+    Student findById(Integer id) throws Exception;
+
+    void delete(Integer id) throws Exception;
 
 }
